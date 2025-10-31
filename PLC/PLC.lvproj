@@ -24,6 +24,18 @@
 			<Item Name="PLC_API.lvlib" Type="Library" URL="../PLC_API/PLC_API.lvlib"/>
 		</Item>
 		<Item Name="PLC_Module.lvlib" Type="Library" URL="../PLC_Module/PLC_Module.lvlib"/>
+		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Property Name="ShowPackages" Type="Bool">true</Property>
+			<Item Name="boring_lab_lib_test_bench_framework [new requirement found]" Type="{2DC17C6E-B9FF-4CBE-BC4B-3D45FE0534D9}">
+				<Property Name="package-name" Type="Str">boring_lab_lib_test_bench_framework</Property>
+				<Property Name="package-type" Type="Str">vipm</Property>
+			</Item>
+			<Item Name="hse_lib_s7netcom [new requirement found]" Type="{2DC17C6E-B9FF-4CBE-BC4B-3D45FE0534D9}">
+				<Property Name="package-name" Type="Str">hse_lib_s7netcom</Property>
+				<Property Name="package-type" Type="Str">vipm</Property>
+			</Item>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PLC" Type="Packed Library">
