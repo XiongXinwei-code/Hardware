@@ -5,6 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Connection Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/Connection Msg/Connection Msg.lvclass"/>
+		<Item Name="Disconnection Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/Disconnection Msg/Disconnection Msg.lvclass"/>
 		<Item Name="PanelClose Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/PanelClose Msg/PanelClose Msg.lvclass"/>
 		<Item Name="SendActorCoreMsg Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/SendActorCoreMsg Msg/SendActorCoreMsg Msg.lvclass"/>
 		<Item Name="UI_Initialize Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/UI_Initialize Msg/UI_Initialize Msg.lvclass"/>
