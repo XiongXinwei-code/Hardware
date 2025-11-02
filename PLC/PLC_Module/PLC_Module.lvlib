@@ -4,6 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">620789760</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="PanelClose Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/PanelClose Msg/PanelClose Msg.lvclass"/>
+		<Item Name="SendActorCoreMsg Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/SendActorCoreMsg Msg/SendActorCoreMsg Msg.lvclass"/>
+		<Item Name="UI_Initialize Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/UI_Initialize Msg/UI_Initialize Msg.lvclass"/>
+	</Item>
 	<Item Name="PLC_Module.lvclass" Type="LVClass" URL="../PLC_Module/PLC_Module.lvclass"/>
+	<Item Name="TestModule.vi" Type="VI" URL="../TestModule.vi"/>
 </Library>
