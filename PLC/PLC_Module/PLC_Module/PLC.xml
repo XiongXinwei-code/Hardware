@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Configuration>
+	<Signals LogicName="PLC_HeartBeat" DataType="Boolean" Address="DB6010.0[0]" WriteEnable="true" Description="PLC端心跳信号"/>
+	<Signals LogicName="PLC_Stop_CMD" DataType="Boolean" Address="DB6010.1[7]" WriteEnable="true" Description=""/>
+	<Signals LogicName="PLC_AutoManualMode" DataType="U8" Address="DB6010.3" WriteEnable="true" Description="PLC手自动模式"/>
+	<Signals LogicName="PLC_Task1" DataType="I16" Address="DB6010.4" WriteEnable="true" Description="从PLC读取任务信号"/>
+	
+	<!--<Signals LogicName="PLC_ProductCode" DataType="I16" Address="DB6010.14" WriteEnable="true" Description="从PLC读取产品信息"/>-->
+	<Signals LogicName="PLC_ProdName" DataType="String" Address="DB6010.40[28]" WriteEnable="true" Description="向PC发送配方名称"/>
+	<Signals LogicName="PLC_ProdCode" DataType="I16" Address="DB6010.70" WriteEnable="true" Description="向PC发送交互信号"/>
+	
+	<Signals LogicName="PLC_DMC" DataType="String" Address="DB6010.100[48]" WriteEnable="true" Description="从PLC读取SN"/>
+	
+	<Signals LogicName="PC_HeartBeat" DataType="Boolean" Address="DB6010.700[0]" WriteEnable="true" Description="PC端心跳信号"/>
+	<Signals LogicName="PC_Error" DataType="Boolean" Address="DB6010.700[3]" WriteEnable="true" Description="错误信息"/>
+	<Signals LogicName="PC_Running" DataType="Boolean" Address="DB6010.700[5]" WriteEnable="true" Description=""/>
+	<Signals LogicName="PC_Ready" DataType="Boolean" Address="DB6010.700[6]" WriteEnable="true" Description=""/>
+	<Signals LogicName="产品上电" DataType="Boolean" Address="DB6010.701[0]" WriteEnable="true" Description=""/>
+	<Signals LogicName="产品点火" DataType="Boolean" Address="DB6010.701[1]" WriteEnable="true" Description=""/>
+	<Signals LogicName="PC_AutoManualMode" DataType="U8" Address="DB6010.703" WriteEnable="true" Description="PC手自动模式"/>
+	<Signals LogicName="PC_FDBK_1" DataType="I16" Address="DB6010.704" WriteEnable="true" Description="读取测试流程信号"/>
+	<Signals LogicName="PC_ErrorCode" DataType="I16" Address="DB6010.714" WriteEnable="true" Description=""/>
+	
+	
+	<Signals LogicName="PC_ProdName" DataType="String" Address="DB6010.720[28]" WriteEnable="true" Description="向PLC发送配方名称"/>
+	<Signals LogicName="PC_ProdCode" DataType="I16" Address="DB6010.750" WriteEnable="true" Description="向PLC发送配方号"/>
+	
+	 
+                <Signals LogicName="PC_TotleResult" DataType="I16" Address="DB6012.0" WriteEnable="true" Description="向PLC发送测试总结果"/>
+	<Signals LogicName="上电电压" DataType="Single" Address="DB6012.2" WriteEnable="true" Description="上电电压"/>
+	<Signals LogicName="上电电压_上限" DataType="Single" Address="DB6012.6" WriteEnable="true" Description="上电电压_上限"/>
+	<Signals LogicName="上电电压_下限" DataType="Single" Address="DB6012.10" WriteEnable="true" Description="上电电压_下限"/>
+	
+	<Signals LogicName="上电电流" DataType="Single" Address="DB6012.14" WriteEnable="true" Description="上电电压"/>
+	<Signals LogicName="上电电流_上限" DataType="Single" Address="DB6012.18" WriteEnable="true" Description="上电电流_上限"/>
+	<Signals LogicName="上电电流_下限" DataType="Single" Address="DB6012.22" WriteEnable="true" Description="上电电流_下限"/>
+	
+	<Signals LogicName="系统供应商软件版本号" DataType="String" Address="DB6012.26[48]" WriteEnable="true" Description="系统供应商软件版本号"/>
+	<Signals LogicName="系统供应商软件版本号_上限" DataType="String" Address="DB6012.76[48]" WriteEnable="true" Description="系统供应商软件版本号_上限"/>
+	
+	<Signals LogicName="客户软件版本号" DataType="String" Address="DB6012.126[48]" WriteEnable="true" Description="客户软件版本号"/>
+	<Signals LogicName="客户软件版本号_上限" DataType="String" Address="DB6012.176[48]" WriteEnable="true" Description="客户软件版本号_上限"/>
+	
+	<Signals LogicName="客户软件基线号" DataType="String" Address="DB6012.226[48]" WriteEnable="true" Description="客户软件基线号"/>
+	<Signals LogicName="客户软件基线号_上限" DataType="String" Address="DB6012.276[48]" WriteEnable="true" Description="客户软件基线号_上限"/>
+	
+	<Signals LogicName="客户硬件版本号" DataType="String" Address="DB6012.326[48]" WriteEnable="true" Description="客户硬件版本号"/>
+	<Signals LogicName="客户硬件版本号_上限" DataType="String" Address="DB6012.376[48]" WriteEnable="true" Description="客户硬件版本号_上限"/>
+	
+	<Signals LogicName="客户硬件基线号" DataType="String" Address="DB6012.426[48]" WriteEnable="true" Description="客户硬件基线号"/>
+	<Signals LogicName="客户硬件基线号_上限" DataType="String" Address="DB6012.476[48]" WriteEnable="true" Description="客户硬件基线号_上限"/>
+	
+	<Signals LogicName="内部应用软件版本号" DataType="String" Address="DB6012.526[48]" WriteEnable="true" Description="内部应用软件版本号"/>
+	<Signals LogicName="内部应用软件版本号_上限" DataType="String" Address="DB6012.576[48]" WriteEnable="true" Description="内部应用软件版本号_上限"/>
+	
+	<Signals LogicName="内部标定软件版本号" DataType="String" Address="DB6012.626[48]" WriteEnable="true" Description="内部标定软件版本号"/>
+	<Signals LogicName="内部标定软件版本号_上限" DataType="String" Address="DB6012.676[48]" WriteEnable="true" Description="内部标定软件版本号_上限"/>
+	
+	<Signals LogicName="内部底层软件版本号" DataType="String" Address="DB6012.726[48]" WriteEnable="true" Description="内部底层软件版本号"/>
+	<Signals LogicName="内部底层软件版本号_上限" DataType="String" Address="DB6012.776[48]" WriteEnable="true" Description="内部底层软件版本号_上限"/>
+	
+	<Signals LogicName="XCP标定量值" DataType="Single" Address="DB6012.2000" WriteEnable="true" Description="XCP标定量值"/>
+	<Signals LogicName="XCP标定量值_上限" DataType="Single" Address="DB6012.2004" WriteEnable="true" Description="XCP标定量值_上限"/>
+	<Signals LogicName="XCP标定量值_下限" DataType="Single" Address="DB6012.2008" WriteEnable="true" Description="XCP标定量值_下限"/>
+	
+	<Signals LogicName="中位解标结果" DataType="String" Address="DB6012.2050[48]" WriteEnable="true" Description="中位解标结果"/>
+	<Signals LogicName="中位解标结果_上限" DataType="String" Address="DB6012.2100[48]" WriteEnable="true" Description="中位解标结果_上限"/>
+	
+	<Signals LogicName="错误代码" DataType="String" Address="DB6012.2200[98]" WriteEnable="true" Description="错误代码"/>
+	<Signals LogicName="错误代码_上限" DataType="String" Address="DB6012.2300[98]" WriteEnable="true" Description="错误代码_上限"/>
+                
+               <Signals LogicName="HBM软件版本号" DataType="String" Address="DB6012.2400[48]" WriteEnable="true" Description="HBM软件版本号"/>
+	<Signals LogicName="HBM软件版本号_上限" DataType="String" Address="DB6012.2450[48]" WriteEnable="true" Description="HBM软件版本号_上限"/>	
+
+                <Signals LogicName="HSM软件版本号" DataType="String" Address="DB6012.2500[48]" WriteEnable="true" Description="HSM软件版本号"/>
+	<Signals LogicName="HSM软件版本号_上限" DataType="String" Address="DB6012.2550[48]" WriteEnable="true" Description="HSM软件版本号_上限"/>	
+
+                <Signals LogicName="FLD软件版本号" DataType="String" Address="DB6012.2600[48]" WriteEnable="true" Description="FLD软件版本号"/>
+	<Signals LogicName="FLD软件版本号_上限" DataType="String" Address="DB6012.2650[48]" WriteEnable="true" Description="FLD软件版本号_上限"/>	
+
+</Configuration>

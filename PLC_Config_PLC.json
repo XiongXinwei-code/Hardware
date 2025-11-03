@@ -1,0 +1,230 @@
+{
+  "ConnectConfig":{
+    "IP Address":"192.168.1.100",
+    "Port":502,
+    "Timeout":3000
+  },
+  "DataConfiguration":[
+    [
+      "PC_AutoManualMode",
+      {
+        "Config":{
+          "Address":"DB6010.703",
+          "Direction":"PC->PLC",
+          "DataType":"U8",
+          "Description":"PC手自动模式"
+        },
+        "Get Value":"0",
+        "Set Value":"0"
+      }
+    ],
+    [
+      "PC_Error",
+      {
+        "Config":{
+          "Address":"DB6010.700[3]",
+          "Direction":"PC->PLC",
+          "DataType":"Boolean",
+          "Description":"错误信息"
+        },
+        "Get Value":"false",
+        "Set Value":""
+      }
+    ],
+    [
+      "PC_ErrorCode",
+      {
+        "Config":{
+          "Address":"DB6010.714",
+          "Direction":"PC->PLC",
+          "DataType":"U32",
+          "Description":""
+        },
+        "Get Value":"0",
+        "Set Value":""
+      }
+    ],
+    [
+      "PC_FDBK_1",
+      {
+        "Config":{
+          "Address":"DB6010.704",
+          "Direction":"PC->PLC",
+          "DataType":"U32",
+          "Description":"读取测试流程信号"
+        },
+        "Get Value":"0",
+        "Set Value":""
+      }
+    ],
+    [
+      "PC_HeartBeat",
+      {
+        "Config":{
+          "Address":"DB6010.700[0]",
+          "Direction":"PC->PLC",
+          "DataType":"Boolean",
+          "Description":"PC端心跳信号"
+        },
+        "Get Value":"false",
+        "Set Value":""
+      }
+    ],
+    [
+      "PC_ProdCode",
+      {
+        "Config":{
+          "Address":"DB6010.750",
+          "Direction":"PC->PLC",
+          "DataType":"U32",
+          "Description":"向PLC发送配方号"
+        },
+        "Get Value":"0",
+        "Set Value":""
+      }
+    ],
+    [
+      "PC_ProdName",
+      {
+        "Config":{
+          "Address":"DB6010.720[28]",
+          "Direction":"PC->PLC",
+          "DataType":"String",
+          "Description":"向PLC发送配方名称"
+        },
+        "Get Value":"\"aaa2\"",
+        "Set Value":"\"aaa2\""
+      }
+    ],
+    [
+      "PC_Ready",
+      {
+        "Config":{
+          "Address":"DB6010.700[6]",
+          "Direction":"PC->PLC",
+          "DataType":"Boolean",
+          "Description":""
+        },
+        "Get Value":"false",
+        "Set Value":""
+      }
+    ],
+    [
+      "PC_Running",
+      {
+        "Config":{
+          "Address":"DB6010.700[5]",
+          "Direction":"PC->PLC",
+          "DataType":"Boolean",
+          "Description":""
+        },
+        "Get Value":"false",
+        "Set Value":""
+      }
+    ],
+    [
+      "PC_TotleResult",
+      {
+        "Config":{
+          "Address":"DB6012.0",
+          "Direction":"PC->PLC",
+          "DataType":"U32",
+          "Description":"向PLC发送测试总结果"
+        },
+        "Get Value":"0",
+        "Set Value":""
+      }
+    ],
+    [
+      "PLC_AutoManualMode",
+      {
+        "Config":{
+          "Address":"DB6010.3",
+          "Direction":"PLC->PC",
+          "DataType":"U8",
+          "Description":"PLC手自动模式"
+        },
+        "Get Value":"0",
+        "Set Value":""
+      }
+    ],
+    [
+      "PLC_DMC",
+      {
+        "Config":{
+          "Address":"DB6010.100[48]",
+          "Direction":"PLC->PC",
+          "DataType":"String",
+          "Description":"从PLC读取SN"
+        },
+        "Get Value":"\"\"",
+        "Set Value":""
+      }
+    ],
+    [
+      "PLC_HeartBeat",
+      {
+        "Config":{
+          "Address":"DB6010.0[0]",
+          "Direction":"PLC->PC",
+          "DataType":"Boolean",
+          "Description":"PLC端心跳信号"
+        },
+        "Get Value":"false",
+        "Set Value":""
+      }
+    ],
+    [
+      "PLC_ProdCode",
+      {
+        "Config":{
+          "Address":"DB6010.70",
+          "Direction":"PLC->PC",
+          "DataType":"U32",
+          "Description":"向PC发送交互信号"
+        },
+        "Get Value":"0",
+        "Set Value":""
+      }
+    ],
+    [
+      "PLC_ProdName",
+      {
+        "Config":{
+          "Address":"DB6010.40[28]",
+          "Direction":"PLC->PC",
+          "DataType":"String",
+          "Description":"向PC发送配方名称"
+        },
+        "Get Value":"\"\"",
+        "Set Value":""
+      }
+    ],
+    [
+      "PLC_Stop_CMD",
+      {
+        "Config":{
+          "Address":"DB6010.1[7]",
+          "Direction":"PLC->PC",
+          "DataType":"Boolean",
+          "Description":""
+        },
+        "Get Value":"false",
+        "Set Value":""
+      }
+    ],
+    [
+      "PLC_Task1",
+      {
+        "Config":{
+          "Address":"DB6010.4",
+          "Direction":"PLC->PC",
+          "DataType":"U32",
+          "Description":"从PLC读取任务信号"
+        },
+        "Get Value":"0",
+        "Set Value":""
+      }
+    ]
+  ]
+}
