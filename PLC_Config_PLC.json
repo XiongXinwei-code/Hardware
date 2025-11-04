@@ -66,7 +66,7 @@
           "DataType":"Boolean",
           "Description":"PC端心跳信号"
         },
-        "Get Value":"true",
+        "Get Value":"false",
         "Set Value":""
       }
     ],
@@ -170,7 +170,7 @@
           "DataType":"Boolean",
           "Description":"PLC端心跳信号"
         },
-        "Get Value":"true",
+        "Get Value":"false",
         "Set Value":""
       }
     ],
@@ -240,6 +240,19 @@
       }
     ],
     [
+      "PLC_Task2",
+      {
+        "Config":{
+          "Address":"DB6010.5",
+          "Direction":"PLC->PC",
+          "DataType":"U32",
+          "Description":"从PLC读取任务信号"
+        },
+        "Get Value":"0",
+        "Set Value":""
+      }
+    ],
+    [
       "PLC_TerminateProcess",
       {
         "Config":{
@@ -253,4 +266,4 @@
       }
     ]
   ]
-}}}
+}
