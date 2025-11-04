@@ -24,10 +24,6 @@
 			<Item Name="PLC_API.lvlib" Type="Library" URL="../PLC_API/PLC_API.lvlib"/>
 		</Item>
 		<Item Name="PLC_Module.lvlib" Type="Library" URL="../PLC_Module/PLC_Module.lvlib"/>
-		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
-			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Property Name="ShowPackages" Type="Bool">false</Property>
-		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PLC" Type="Packed Library">
@@ -40,7 +36,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D570FFD9-6F01-4564-AD46-19109E413E20}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PLC.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../PLC_PPL/NI_AB_PROJECTNAME.lvlibp</Property>
