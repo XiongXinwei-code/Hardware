@@ -1,6 +1,6 @@
 {
   "ConnectConfig":{
-    "IP Address":"192.168.1.100",
+    "IP Address":"192.168.1.101",
     "Port":502,
     "Timeout":3000
   },
@@ -92,8 +92,8 @@
           "DataType":"String",
           "Description":"向PLC发送配方名称"
         },
-        "Get Value":"\"aaa2\"",
-        "Set Value":"\"aaa2\""
+        "Get Value":"\"\"",
+        "Set Value":"\"\""
       }
     ],
     [
@@ -170,7 +170,7 @@
           "DataType":"Boolean",
           "Description":"PLC端心跳信号"
         },
-        "Get Value":"false",
+        "Get Value":"true",
         "Set Value":""
       }
     ],
@@ -201,6 +201,19 @@
       }
     ],
     [
+      "PLC_StartTest",
+      {
+        "Config":{
+          "Address":"DB6010.1[1]",
+          "Direction":"PC->PLC",
+          "DataType":"Boolean",
+          "Description":"启动测试流程"
+        },
+        "Get Value":"false",
+        "Set Value":""
+      }
+    ],
+    [
       "PLC_Stop_CMD",
       {
         "Config":{
@@ -225,6 +238,19 @@
         "Get Value":"0",
         "Set Value":""
       }
+    ],
+    [
+      "PLC_TerminateProcess",
+      {
+        "Config":{
+          "Address":"DB6010.1[2]",
+          "Direction":"PLC->PC",
+          "DataType":"Boolean",
+          "Description":"终止测试程序，结束PLC模块"
+        },
+        "Get Value":"false",
+        "Set Value":""
+      }
     ]
   ]
-}
+}}
