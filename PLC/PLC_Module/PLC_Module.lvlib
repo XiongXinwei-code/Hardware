@@ -8,11 +8,13 @@
 		<Item Name="Connection Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/Connection Msg/Connection Msg.lvclass"/>
 		<Item Name="Delete Item Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/Delete Item Msg/Delete Item Msg.lvclass"/>
 		<Item Name="Disconnection Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/Disconnection Msg/Disconnection Msg.lvclass"/>
+		<Item Name="DuplicateItem Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/DuplicateItem Msg/DuplicateItem Msg.lvclass"/>
 		<Item Name="EditPanel Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/EditPanel Msg/EditPanel Msg.lvclass"/>
 		<Item Name="Monitor Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/Monitor Msg/Monitor Msg.lvclass"/>
 		<Item Name="PanelClose Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/PanelClose Msg/PanelClose Msg.lvclass"/>
 		<Item Name="ReadData Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/ReadData Msg/ReadData Msg.lvclass"/>
 		<Item Name="RefreshList Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/RefreshList Msg/RefreshList Msg.lvclass"/>
+		<Item Name="Rename Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/Rename Msg/Rename Msg.lvclass"/>
 		<Item Name="SendActorCoreMsg Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/SendActorCoreMsg Msg/SendActorCoreMsg Msg.lvclass"/>
 		<Item Name="Set Data Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/Set Data Msg/Set Data Msg.lvclass"/>
 		<Item Name="UI_Initialize Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/UI_Initialize Msg/UI_Initialize Msg.lvclass"/>
