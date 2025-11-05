@@ -5,7 +5,7 @@
       "TaskType":"AI",
       "PhysicalChannels":"Dev1/ai0:3",
       "SampleRateConfiguration":{
-        "SampleRate":10000,
+        "SampleRate":1000,
         "SamplesPerChannel":1000,
         "SamplesPerRead":200,
         "SampleMode":10123,
@@ -18,9 +18,9 @@
     "ai_task_2",
     {
       "TaskType":"AI",
-      "PhysicalChannels":"Dev1/ai4",
+      "PhysicalChannels":"Dev2/ai4",
       "SampleRateConfiguration":{
-        "SampleRate":10000,
+        "SampleRate":1000,
         "SamplesPerChannel":1000,
         "SamplesPerRead":200,
         "SampleMode":10123,
