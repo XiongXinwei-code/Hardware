@@ -18,6 +18,7 @@
 		<Item Name="ClosePanel Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/ClosePanel Msg/ClosePanel Msg.lvclass"/>
 		<Item Name="ReadData Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/ReadData Msg/ReadData Msg.lvclass"/>
 		<Item Name="ShowPanel Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/ShowPanel Msg/ShowPanel Msg.lvclass"/>
+		<Item Name="StartRecord Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/StartRecord Msg/StartRecord Msg.lvclass"/>
 		<Item Name="StartTask Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/StartTask Msg/StartTask Msg.lvclass"/>
 		<Item Name="StopTask Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/StopTask Msg/StopTask Msg.lvclass"/>
 	</Item>

@@ -28,6 +28,7 @@
 			<Item Name="Simulated_AI" Type="Folder"/>
 		</Item>
 		<Item Name="DAQ_Module.lvlib" Type="Library" URL="../DAQ_Module/DAQ_Module/DAQ_Module.lvlib"/>
+		<Item Name="DataContainer.ctl" Type="VI" URL="../DAQ_Abstr/Task_Abstr/Task_Abstr/DataContainer.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

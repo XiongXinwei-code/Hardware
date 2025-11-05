@@ -18,6 +18,7 @@
 		<Item Name="API" Type="Folder">
 			<Item Name="CreateTasks Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/CreateTasks Msg/CreateTasks Msg.lvclass"/>
 			<Item Name="ReadData Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/ReadData Msg/ReadData Msg.lvclass"/>
+			<Item Name="StartRecord Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/StartRecord Msg/StartRecord Msg.lvclass"/>
 			<Item Name="StartTask Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/StartTask Msg/StartTask Msg.lvclass"/>
 			<Item Name="StopTask Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/StopTask Msg/StopTask Msg.lvclass"/>
 		</Item>
