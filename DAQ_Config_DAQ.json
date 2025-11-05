@@ -1,0 +1,32 @@
+[
+  [
+    "ai_task_1",
+    {
+      "TaskType":"AI",
+      "PhysicalChannels":"Dev1/ai0:3",
+      "SampleRateConfiguration":{
+        "SampleRate":10000,
+        "SamplesPerChannel":1000,
+        "SamplesPerRead":200,
+        "SampleMode":10123,
+        "Clock Source":"OnboardClock"
+      },
+      "ChannelConfig":"{\"MaxValue\":10,\"MinValue\":-10,\"InputTerminalConfiguration\":10083}"
+    }
+  ],
+  [
+    "ai_task_2",
+    {
+      "TaskType":"AI",
+      "PhysicalChannels":"Dev1/ai4",
+      "SampleRateConfiguration":{
+        "SampleRate":10000,
+        "SamplesPerChannel":1000,
+        "SamplesPerRead":200,
+        "SampleMode":10123,
+        "Clock Source":"OnboardClock"
+      },
+      "ChannelConfig":"{\"MaxValue\":10,\"MinValue\":-10,\"InputTerminalConfiguration\":10083}"
+    }
+  ]
+]
