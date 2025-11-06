@@ -19,7 +19,6 @@
 			<Item Name="ClearData Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/ClearData Msg/ClearData Msg.lvclass"/>
 			<Item Name="CreateTasks Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/CreateTasks Msg/CreateTasks Msg.lvclass"/>
 			<Item Name="GetRecord Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/GetRecord Msg/GetRecord Msg.lvclass"/>
-			<Item Name="ReadData Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/ReadData Msg/ReadData Msg.lvclass"/>
 			<Item Name="SaveTaskToTDMS Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/SaveTaskToTDMS Msg/SaveTaskToTDMS Msg.lvclass"/>
 			<Item Name="SaveToTDMS Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/SaveToTDMS Msg/SaveToTDMS Msg.lvclass"/>
 			<Item Name="StartRecord Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/StartRecord Msg/StartRecord Msg.lvclass"/>
@@ -27,9 +26,11 @@
 			<Item Name="StopRecord Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/StopRecord Msg/StopRecord Msg.lvclass"/>
 			<Item Name="StopTask Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/StopTask Msg/StopTask Msg.lvclass"/>
 		</Item>
+		<Item Name="GetErrorTask Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/GetErrorTask Msg/GetErrorTask Msg.lvclass"/>
 		<Item Name="PanelClose Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/PanelClose Msg/PanelClose Msg.lvclass"/>
 		<Item Name="SendActorCoreMsg Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/SendActorCoreMsg Msg/SendActorCoreMsg Msg.lvclass"/>
 		<Item Name="ShowTask Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/ShowTask Msg/ShowTask Msg.lvclass"/>
+		<Item Name="UI_Initialize Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/UI_Initialize Msg/UI_Initialize Msg.lvclass"/>
 	</Item>
 	<Item Name="DAQ_Module.lvclass" Type="LVClass" URL="../DAQ_Module/DAQ_Module.lvclass"/>
 	<Item Name="TestModule.vi" Type="VI" URL="../../../TestModule.vi"/>
