@@ -16,10 +16,15 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="API" Type="Folder">
+			<Item Name="ClearData Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/ClearData Msg/ClearData Msg.lvclass"/>
 			<Item Name="CreateTasks Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/CreateTasks Msg/CreateTasks Msg.lvclass"/>
+			<Item Name="GetRecord Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/GetRecord Msg/GetRecord Msg.lvclass"/>
 			<Item Name="ReadData Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/ReadData Msg/ReadData Msg.lvclass"/>
+			<Item Name="SaveTaskToTDMS Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/SaveTaskToTDMS Msg/SaveTaskToTDMS Msg.lvclass"/>
+			<Item Name="SaveToTDMS Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/SaveToTDMS Msg/SaveToTDMS Msg.lvclass"/>
 			<Item Name="StartRecord Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/StartRecord Msg/StartRecord Msg.lvclass"/>
 			<Item Name="StartTask Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/StartTask Msg/StartTask Msg.lvclass"/>
+			<Item Name="StopRecord Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/StopRecord Msg/StopRecord Msg.lvclass"/>
 			<Item Name="StopTask Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/StopTask Msg/StopTask Msg.lvclass"/>
 		</Item>
 		<Item Name="PanelClose Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/PanelClose Msg/PanelClose Msg.lvclass"/>

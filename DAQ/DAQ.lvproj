@@ -17,7 +17,6 @@
 			<Item Name="Task_Type" Type="Folder">
 				<Item Name="AI_Task.lvlib" Type="Library" URL="../DAQ_Abstr/Task_Type/AI_Task/AI_Task.lvlib"/>
 			</Item>
-			<Item Name="DAQ_Abstr.lvlib" Type="Library" URL="../DAQ_Abstr/DAQ_Abstr/DAQ_Abstr.lvlib"/>
 			<Item Name="Task_Abstr.lvlib" Type="Library" URL="../DAQ_Abstr/Task_Abstr/Task_Abstr.lvlib"/>
 		</Item>
 		<Item Name="API" Type="Folder"/>
@@ -28,7 +27,6 @@
 			<Item Name="Simulated_AI" Type="Folder"/>
 		</Item>
 		<Item Name="DAQ_Module.lvlib" Type="Library" URL="../DAQ_Module/DAQ_Module/DAQ_Module.lvlib"/>
-		<Item Name="DataContainer.ctl" Type="VI" URL="../DAQ_Abstr/Task_Abstr/Task_Abstr/DataContainer.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -1,7 +1,25 @@
 [
   [
+    "NewTesk 0",
+    {
+      "Drive":"NI_DAQmx",
+      "TaskType":"AI",
+      "PhysicalChannels":"/Dev1/ai0:3",
+      "SampleRateConfiguration":{
+        "SampleRate":1000,
+        "SamplesPerChannel":1000,
+        "SamplesPerRead":200,
+        "SampleMode":10123,
+        "Clock Source":"OnboardClock"
+      },
+      "ChannelConfig":"{\n  \"MaxValue\":10,\n  \"MinValue\":-10,\n  \"InputTerminalConfiguration\":10083\n}",
+      "Enable":false
+    }
+  ],
+  [
     "ai_task_1",
     {
+      "Drive":"NI_DAQmx",
       "TaskType":"AI",
       "PhysicalChannels":"Dev1/ai0:3",
       "SampleRateConfiguration":{
@@ -11,12 +29,14 @@
         "SampleMode":10123,
         "Clock Source":"OnboardClock"
       },
-      "ChannelConfig":"{\"MaxValue\":10,\"MinValue\":-10,\"InputTerminalConfiguration\":10083}"
+      "ChannelConfig":"{\n  \"MaxValue\":10,\n  \"MinValue\":-10,\n  \"InputTerminalConfiguration\":10083\n}",
+      "Enable":true
     }
   ],
   [
     "ai_task_2",
     {
+      "Drive":"NI_DAQmx",
       "TaskType":"AI",
       "PhysicalChannels":"Dev2/ai4",
       "SampleRateConfiguration":{
@@ -26,7 +46,8 @@
         "SampleMode":10123,
         "Clock Source":"OnboardClock"
       },
-      "ChannelConfig":"{\"MaxValue\":10,\"MinValue\":-10,\"InputTerminalConfiguration\":10083}"
+      "ChannelConfig":"{\n  \"MaxValue\":10,\n  \"MinValue\":-10,\n  \"InputTerminalConfiguration\":10083\n}",
+      "Enable":true
     }
   ]
 ]

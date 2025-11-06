@@ -15,11 +15,15 @@
 </Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="ClearDataContainer Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/ClearDataContainer Msg/ClearDataContainer Msg.lvclass"/>
 		<Item Name="ClosePanel Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/ClosePanel Msg/ClosePanel Msg.lvclass"/>
+		<Item Name="GetRecord Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/GetRecord Msg/GetRecord Msg.lvclass"/>
 		<Item Name="ReadData Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/ReadData Msg/ReadData Msg.lvclass"/>
+		<Item Name="SaveData Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/SaveData Msg/SaveData Msg.lvclass"/>
 		<Item Name="ShowPanel Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/ShowPanel Msg/ShowPanel Msg.lvclass"/>
 		<Item Name="StartRecord Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/StartRecord Msg/StartRecord Msg.lvclass"/>
 		<Item Name="StartTask Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/StartTask Msg/StartTask Msg.lvclass"/>
+		<Item Name="StopRecord Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/StopRecord Msg/StopRecord Msg.lvclass"/>
 		<Item Name="StopTask Msg.lvclass" Type="LVClass" URL="../Task_Abstr Messages/StopTask Msg/StopTask Msg.lvclass"/>
 	</Item>
 	<Item Name="Task_Abstr.lvclass" Type="LVClass" URL="../Task_Abstr/Task_Abstr.lvclass"/>
