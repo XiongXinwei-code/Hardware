@@ -25,6 +25,9 @@
 			<Item Name="NI_DAQmx(AI)" Type="Folder">
 				<Item Name="NI_DAQmx(AI).lvclass" Type="LVClass" URL="../DAQ_Drive/NI_DAQmx/NI_DAQmx(AI)/NI_DAQmx(AI).lvclass"/>
 			</Item>
+			<Item Name="NI_DAQmx(Linear)" Type="Folder">
+				<Item Name="NI_DAQmx(Linear).lvclass" Type="LVClass" URL="../DAQ_Drive/NI_DAQmx/NI_DAQmx(Linear)/NI_DAQmx(Linear).lvclass"/>
+			</Item>
 			<Item Name="Simulated_AI" Type="Folder"/>
 		</Item>
 		<Item Name="API" Type="Folder">
