@@ -23,6 +23,9 @@
 		<Item Name="API" Type="Folder">
 			<Item Name="PLC_API.lvlib" Type="Library" URL="../PLC_API/PLC_API.lvlib"/>
 		</Item>
+		<Item Name="Interface" Type="Folder">
+			<Item Name="Module.lvlib" Type="Library" URL="../../Module/Module/Module.lvlib"/>
+		</Item>
 		<Item Name="PLC_Module.lvlib" Type="Library" URL="../PLC_Module/PLC_Module.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
@@ -36,7 +39,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D570FFD9-6F01-4564-AD46-19109E413E20}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PLC.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../PLC_PPL/NI_AB_PROJECTNAME.lvlibp</Property>

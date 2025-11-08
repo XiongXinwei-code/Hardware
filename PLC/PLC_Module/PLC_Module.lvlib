@@ -11,13 +11,10 @@
 		<Item Name="DuplicateItem Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/DuplicateItem Msg/DuplicateItem Msg.lvclass"/>
 		<Item Name="EditPanel Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/EditPanel Msg/EditPanel Msg.lvclass"/>
 		<Item Name="Monitor Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/Monitor Msg/Monitor Msg.lvclass"/>
-		<Item Name="PanelClose Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/PanelClose Msg/PanelClose Msg.lvclass"/>
 		<Item Name="ReadData Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/ReadData Msg/ReadData Msg.lvclass"/>
 		<Item Name="RefreshList Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/RefreshList Msg/RefreshList Msg.lvclass"/>
 		<Item Name="Rename Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/Rename Msg/Rename Msg.lvclass"/>
-		<Item Name="SendActorCoreMsg Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/SendActorCoreMsg Msg/SendActorCoreMsg Msg.lvclass"/>
 		<Item Name="Set Data Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/Set Data Msg/Set Data Msg.lvclass"/>
-		<Item Name="UI_Initialize Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/UI_Initialize Msg/UI_Initialize Msg.lvclass"/>
 		<Item Name="Write Monitor Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/Write Monitor Msg/Write Monitor Msg.lvclass"/>
 		<Item Name="WriteData Msg.lvclass" Type="LVClass" URL="../PLC_Module Messages/WriteData Msg/WriteData Msg.lvclass"/>
 	</Item>
