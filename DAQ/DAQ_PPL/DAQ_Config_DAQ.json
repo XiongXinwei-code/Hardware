@@ -32,7 +32,7 @@
       },
       "ChannelConfig":"{\n  \"MaxValue\":10,\n  \"MinValue\":-10,\n  \"InputTerminalConfiguration\":10083\n}",
       "Enable":true,
-      "ShowPanel":false
+      "ShowPanel":true
     }
   ],
   [
@@ -53,4 +53,4 @@
       "ShowPanel":false
     }
   ]
-]
+]]
