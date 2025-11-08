@@ -66,7 +66,7 @@
           "DataType":"Boolean",
           "Description":"PC端心跳信号"
         },
-        "Get Value":"true",
+        "Get Value":"false",
         "Set Value":""
       }
     ],
@@ -170,7 +170,7 @@
           "DataType":"Boolean",
           "Description":"PLC端心跳信号"
         },
-        "Get Value":"false",
+        "Get Value":"true",
         "Set Value":""
       }
     ],
@@ -214,7 +214,7 @@
       }
     ],
     [
-      "PLC_Stop_CMD",
+      "PLC_StopTest",
       {
         "Config":{
           "Address":"DB6010.1[7]",

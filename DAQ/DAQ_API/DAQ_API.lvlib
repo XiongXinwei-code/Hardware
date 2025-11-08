@@ -25,4 +25,5 @@
 	<Item Name="DAQ_SaveRecord(TDMS).vi" Type="VI" URL="../DAQ_SaveRecord(TDMS).vi"/>
 	<Item Name="DAQ_ClearData.vi" Type="VI" URL="../DAQ_ClearData.vi"/>
 	<Item Name="DAQ_GetRecord.vi" Type="VI" URL="../DAQ_GetRecord.vi"/>
+	<Item Name="DAQ_StopModule.vi" Type="VI" URL="../DAQ_StopModule.vi"/>
 </Library>

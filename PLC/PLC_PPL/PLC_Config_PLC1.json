@@ -1,6 +1,6 @@
 {
   "ConnectConfig":{
-    "IP Address":"192.168.1.100",
+    "IP Address":"192.168.1.101",
     "Port":502,
     "Timeout":3000
   },
@@ -14,8 +14,8 @@
           "DataType":"U8",
           "Description":"PC手自动模式"
         },
-        "Get Value":"1",
-        "Set Value":"1"
+        "Get Value":"0",
+        "Set Value":"0"
       }
     ],
     [
@@ -66,7 +66,7 @@
           "DataType":"Boolean",
           "Description":"PC端心跳信号"
         },
-        "Get Value":"false",
+        "Get Value":"true",
         "Set Value":""
       }
     ],
@@ -92,8 +92,8 @@
           "DataType":"String",
           "Description":"向PLC发送配方名称"
         },
-        "Get Value":"\"asd\"",
-        "Set Value":"\"asd\""
+        "Get Value":"\"\"",
+        "Set Value":"\"\""
       }
     ],
     [
@@ -170,7 +170,7 @@
           "DataType":"Boolean",
           "Description":"PLC端心跳信号"
         },
-        "Get Value":"true",
+        "Get Value":"false",
         "Set Value":""
       }
     ],
@@ -201,7 +201,20 @@
       }
     ],
     [
-      "PLC_Stop_CMD",
+      "PLC_StartTest",
+      {
+        "Config":{
+          "Address":"DB6010.1[1]",
+          "Direction":"PC->PLC",
+          "DataType":"Boolean",
+          "Description":"启动测试流程"
+        },
+        "Get Value":"false",
+        "Set Value":"true"
+      }
+    ],
+    [
+      "PLC_StopTest",
       {
         "Config":{
           "Address":"DB6010.1[7]",
@@ -225,6 +238,32 @@
         "Get Value":"0",
         "Set Value":""
       }
+    ],
+    [
+      "PLC_Task2",
+      {
+        "Config":{
+          "Address":"DB6010.5",
+          "Direction":"PLC->PC",
+          "DataType":"U32",
+          "Description":"从PLC读取任务信号"
+        },
+        "Get Value":"0",
+        "Set Value":""
+      }
+    ],
+    [
+      "PLC_TerminateProcess",
+      {
+        "Config":{
+          "Address":"DB6010.1[2]",
+          "Direction":"PLC->PC",
+          "DataType":"Boolean",
+          "Description":"终止测试程序，结束PLC模块"
+        },
+        "Get Value":"false",
+        "Set Value":""
+      }
     ]
   ]
-}
+}}
