@@ -16,8 +16,12 @@
 		<Item Name="Abstraction" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Task_Type" Type="Folder">
-				<Item Name="Linear_Task.lvlib" Type="Library" URL="../DAQ_Abstr/Task_Type/Linear_Task/Linear_Task.lvlib"/>
-				<Item Name="AI_Task.lvlib" Type="Library" URL="../DAQ_Abstr/Task_Type/AI_Task/AI_Task.lvlib"/>
+				<Item Name="Waveform" Type="Folder">
+					<Item Name="Linear_Task.lvlib" Type="Library" URL="../DAQ_Abstr/Task_Type/Linear_Task/Linear_Task.lvlib"/>
+					<Item Name="AI_Task.lvlib" Type="Library" URL="../DAQ_Abstr/Task_Type/AI_Task/AI_Task.lvlib"/>
+					<Item Name="Angular_Task.lvlib" Type="Library" URL="../DAQ_Abstr/Task_Type/Angular_Task/Angular_Task.lvlib"/>
+				</Item>
+				<Item Name="Waveform_Task.lvlib" Type="Library" URL="../DAQ_Abstr/Task_Type/Waveform_Task/Waveform_Task.lvlib"/>
 			</Item>
 			<Item Name="Task_Abstr.lvlib" Type="Library" URL="../DAQ_Abstr/Task_Abstr/Task_Abstr.lvlib"/>
 		</Item>
@@ -27,6 +31,9 @@
 			</Item>
 			<Item Name="NI_DAQmx(Linear)" Type="Folder">
 				<Item Name="NI_DAQmx(Linear).lvclass" Type="LVClass" URL="../DAQ_Drive/NI_DAQmx/NI_DAQmx(Linear)/NI_DAQmx(Linear).lvclass"/>
+			</Item>
+			<Item Name="NI_DAQmx(Angular)" Type="Folder">
+				<Item Name="NI_DAQmx(Angular).lvclass" Type="LVClass" URL="../DAQ_Drive/NI_DAQmx/NI_DAQmx(Angular)/NI_DAQmx(Angular).lvclass"/>
 			</Item>
 			<Item Name="Simulated_AI" Type="Folder"/>
 		</Item>
@@ -49,7 +56,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{71981095-4C06-4130-A833-DA974464EE1D}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DAQ.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../DAQ_PPL/NI_AB_PROJECTNAME.lvlibp</Property>

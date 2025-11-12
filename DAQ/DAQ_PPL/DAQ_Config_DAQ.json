@@ -18,28 +18,10 @@
     }
   ],
   [
-    "ai_task_2",
+    "angular_task_1",
     {
       "Drive":"NI_DAQmx",
-      "TaskType":"AI",
-      "PhysicalChannels":"Dev2/ai4",
-      "SampleRateConfiguration":{
-        "SampleRate":1000,
-        "SamplesPerChannel":1000,
-        "SamplesPerRead":200,
-        "SampleMode":10123,
-        "Clock Source":"OnboardClock"
-      },
-      "ChannelConfig":"{\n  \"MaxValue\":10,\n  \"MinValue\":-10,\n  \"InputTerminalConfiguration\":10083\n}",
-      "Enable":true,
-      "ShowPanel":true
-    }
-  ],
-  [
-    "linear_task_1",
-    {
-      "Drive":"NI_DAQmx",
-      "TaskType":"Linear",
+      "TaskType":"Angular",
       "PhysicalChannels":"Dev1/ctr0",
       "SampleRateConfiguration":{
         "SampleRate":1000,
@@ -48,9 +30,19 @@
         "SampleMode":10123,
         "Clock Source":"ai/SampleClock"
       },
-      "ChannelConfig":"{\n  \"decoding type\":10092,\n  \"units\":10219,\n  \"distance per pulse\":0.001,\n  \"initial position\":0,\n  \"z index enable\":false,\n  \"z index value\":0,\n  \"z index phase\":10040,\n  \"CI_Encoder_A_InputTerm\":\"/Dev1/PFI8\",\n  \"CI_Encoder_B_InputTerm\":\"/Dev1/PFI10\",\n  \"CI_Encoder_Z_InputTerm\":\"/Dev1/PFI9\"\n}",
+      "ChannelConfig":"{\n  \"decoding type\":10092,\n  \"units\":10146,\n  \"pulses per revolution\":24,\n  \"initial angle\":0,\n  \"z index enable\":false,\n  \"z index value\":0,\n  \"z index phase\":10040,\n  \"CI_Encoder_A_InputTerm\":\"/Dev1/PFI8\",\n  \"CI_Encoder_B_InputTerm\":\"/Dev1/PFI10\",\n  \"CI_Encoder_Z_InputTerm\":\"/Dev1/PFI9\"\n}",
       "Enable":true,
-      "ShowPanel":false
+      "ShowPanel":true
     }
   ]
+],
+        "SampleMode":10123,
+        "Clock Source":"ai/SampleClock"
+      },
+      "ChannelConfig":"{\n  \"decoding type\":10092,\n  \"units\":10146,\n  \"pulses per revolution\":24,\n  \"initial angle\":0,\n  \"z index enable\":false,\n  \"z index value\":0,\n  \"z index phase\":10040,\n  \"CI_Encoder_A_InputTerm\":\"/Dev1/PFI8\",\n  \"CI_Encoder_B_InputTerm\":\"/Dev1/PFI10\",\n  \"CI_Encoder_Z_InputTerm\":\"/Dev1/PFI9\"\n}",
+      "Enable":true,
+      "ShowPanel":true
+    }
+  ]
+]
 ]]
