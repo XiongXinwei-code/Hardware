@@ -1,10 +1,10 @@
 [
   [
-    "NewTesk 0",
+    "ai_task_1",
     {
       "Drive":"NI_DAQmx",
       "TaskType":"AI",
-      "PhysicalChannels":"/Dev1/ai0:4",
+      "PhysicalChannels":"/Dev1/ai0:3",
       "SampleRateConfiguration":{
         "SampleRate":1000,
         "SamplesPerChannel":1000,
@@ -16,38 +16,78 @@
         [
           "/Dev1/ai0",
           {
-            "Name":"电压",
-            "Config":"{\"MaxValue\":10,\"MinValue\":0,\"InputTerminalConfiguration\":10083}"
+            "Name":"扭矩",
+            "Config":"{\"AI\":{\"MaxValue\":10,\"MinValue\":-10,\"InputTerminalConfiguration\":10083},\"Scale\":{\"Offset\":0,\"Gain\":1,\"Unit\":\"V\"},\"Calibrate\":{\"K\":0,\"B\":1}}"
           }
         ],
         [
           "/Dev1/ai1",
           {
-            "Name":"扭矩",
-            "Config":"{\"MaxValue\":10,\"MinValue\":-10,\"InputTerminalConfiguration\":10083}"
+            "Name":"压力",
+            "Config":"{\"AI\":{\"MaxValue\":10,\"MinValue\":0,\"InputTerminalConfiguration\":10083},\"Scale\":{\"Offset\":0,\"Gain\":1,\"Unit\":\"\"},\"Calibrate\":{\"K\":0,\"B\":1}}"
           }
         ],
         [
           "/Dev1/ai2",
           {
-            "Name":"/Dev1/ai2",
-            "Config":"{\"MaxValue\":10,\"MinValue\":0,\"InputTerminalConfiguration\":10106}"
+            "Name":"震动",
+            "Config":"{\"AI\":{\"MaxValue\":5,\"MinValue\":-5,\"InputTerminalConfiguration\":10083},\"Scale\":{\"Offset\":0,\"Gain\":1,\"Unit\":\"\"},\"Calibrate\":{\"K\":0,\"B\":1}}"
           }
         ],
         [
           "/Dev1/ai3",
-          {"Name":"/Dev1/ai3","Config":""}
-        ],
-        [
-          "/Dev1/ai4",
           {
-            "Name":"/Dev1/ai4",
-            "Config":"{\"MaxValue\":1,\"MinValue\":0,\"InputTerminalConfiguration\":-1}"
+            "Name":"位置",
+            "Config":"{\"AI\":{\"MaxValue\":1,\"MinValue\":0,\"InputTerminalConfiguration\":-1},\"Scale\":{\"Offset\":0,\"Gain\":1,\"Unit\":\"\"},\"Calibrate\":{\"K\":0,\"B\":1}}"
           }
         ]
       ],
       "Enable":true,
-      "ShowPanel":false
+      "Original":false
+    }
+  ],
+  [
+    "liner_task_1",
+    {
+      "Drive":"NI_DAQmx",
+      "TaskType":"Linear",
+      "PhysicalChannels":"/Dev1/ctr0",
+      "SampleRateConfiguration":{
+        "SampleRate":1000,
+        "SamplesPerChannel":1000,
+        "SamplesPerRead":200,
+        "SampleMode":10123,
+        "Clock Source":"ai/SampleClock"
+      },
+      "ChannelConfig":[
+        [
+          "/Dev1/ctr0",
+          {
+            "Name":"Linear",
+            "Config":"{\"decoding type\":10092,\"units\":10219,\"distance per pulse\":0.001,\"initial position\":0,\"z index enable\":false,\"z index value\":0,\"z index phase\":10040,\"CI_Encoder_A_InputTerm\":\"/Dev1/PFI8\",\"CI_Encoder_B_InputTerm\":\"/Dev1/PFI10\",\"CI_Encoder_Z_InputTerm\":\"\"}"
+          }
+        ]
+      ],
+      "Enable":true,
+      "Original":false
+    }
+  ]
+]erChannel":1000,
+        "SamplesPerRead":200,
+        "SampleMode":10123,
+        "Clock Source":"ai/SampleClock"
+      },
+      "ChannelConfig":[
+        [
+          "/Dev1/ctr0",
+          {
+            "Name":"Linear",
+            "Config":"{\"decoding type\":10092,\"units\":10219,\"distance per pulse\":0.001,\"initial position\":0,\"z index enable\":false,\"z index value\":0,\"z index phase\":10040,\"CI_Encoder_A_InputTerm\":\"/Dev1/PFI8\",\"CI_Encoder_B_InputTerm\":\"/Dev1/PFI10\",\"CI_Encoder_Z_InputTerm\":\"\"}"
+          }
+        ]
+      ],
+      "Enable":true,
+      "Original":false
     }
   ]
 ]
