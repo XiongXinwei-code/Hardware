@@ -26,6 +26,10 @@
 			<Item Name="StartTask Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/StartTask Msg/StartTask Msg.lvclass"/>
 			<Item Name="StopTask Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/StopTask Msg/StopTask Msg.lvclass"/>
 			<Item Name="ClearData Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/ClearData Msg/ClearData Msg.lvclass"/>
+			<Item Name="OpenConfig Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/OpenConfig Msg/OpenConfig Msg.lvclass"/>
+			<Item Name="Read TaskConfig Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/Read TaskConfig Msg/Read TaskConfig Msg.lvclass"/>
+			<Item Name="Write TaskConfig Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/Write TaskConfig Msg/Write TaskConfig Msg.lvclass"/>
+			<Item Name="SaveConfig Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/SaveConfig Msg/SaveConfig Msg.lvclass"/>
 		</Item>
 		<Item Name="GetErrorTask Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/GetErrorTask Msg/GetErrorTask Msg.lvclass"/>
 		<Item Name="RefreshList Msg.lvclass" Type="LVClass" URL="../DAQ_Module Messages/RefreshList Msg/RefreshList Msg.lvclass"/>

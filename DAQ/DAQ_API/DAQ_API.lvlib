@@ -15,6 +15,9 @@
 </Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="TaskType.vi" Type="VI" URL="../TaskType.vi"/>
+	</Item>
 	<Item Name="DAQ_Launcher.vi" Type="VI" URL="../DAQ_Launcher.vi"/>
 	<Item Name="DAQ_Create.vi" Type="VI" URL="../DAQ_Create.vi"/>
 	<Item Name="DAQ_Destroy.vi" Type="VI" URL="../DAQ_Destroy.vi"/>
@@ -26,4 +29,9 @@
 	<Item Name="DAQ_ClearData.vi" Type="VI" URL="../DAQ_ClearData.vi"/>
 	<Item Name="DAQ_GetRecord.vi" Type="VI" URL="../DAQ_GetRecord.vi"/>
 	<Item Name="DAQ_StopModule.vi" Type="VI" URL="../DAQ_StopModule.vi"/>
+	<Item Name="DAQ_ReadConfig.vi" Type="VI" URL="../DAQ_ReadConfig.vi"/>
+	<Item Name="DAQ_WriteConfig.vi" Type="VI" URL="../DAQ_WriteConfig.vi"/>
+	<Item Name="DAQ_SaveConfig.vi" Type="VI" URL="../DAQ_SaveConfig.vi"/>
+	<Item Name="DAQ_Config.vi" Type="VI" URL="../DAQ_Config.vi"/>
+	<Item Name="DAQ_Show.vi" Type="VI" URL="../DAQ_Show.vi"/>
 </Library>
