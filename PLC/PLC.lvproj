@@ -39,7 +39,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D570FFD9-6F01-4564-AD46-19109E413E20}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PLC.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../PLC_PPL/NI_AB_PROJECTNAME.lvlibp</Property>
