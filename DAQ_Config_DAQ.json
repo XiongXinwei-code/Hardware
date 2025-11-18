@@ -63,8 +63,8 @@
         [
           "/Dev1/ctr0",
           {
-            "Name":"Linear",
-            "Config":"{\"decoding type\":10092,\"units\":10219,\"distance per pulse\":0.001,\"initial position\":0,\"z index enable\":false,\"z index value\":0,\"z index phase\":10040,\"CI_Encoder_A_InputTerm\":\"/Dev1/PFI8\",\"CI_Encoder_B_InputTerm\":\"/Dev1/PFI10\",\"CI_Encoder_Z_InputTerm\":\"\"}"
+            "Name":"位置",
+            "Config":"{\"decoding type\":10092,\"units\":10219,\"distance per pulse\":0.001,\"initial position\":0,\"z index enable\":false,\"z index value\":0,\"z index phase\":10040,\"CI_Encoder_A_InputTerm\":\"\",\"CI_Encoder_B_InputTerm\":\"\",\"CI_Encoder_Z_InputTerm\":\"\"}"
           }
         ]
       ],
@@ -72,7 +72,10 @@
       "Original":false
     }
   ]
-]erChannel":1000,
+]al":false
+    }
+  ]
+]hannel":1000,
         "SamplesPerRead":200,
         "SampleMode":10123,
         "Clock Source":"ai/SampleClock"
