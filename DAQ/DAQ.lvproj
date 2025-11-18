@@ -56,7 +56,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{71981095-4C06-4130-A833-DA974464EE1D}</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DAQ.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../DAQ_PPL/NI_AB_PROJECTNAME.lvlibp</Property>
